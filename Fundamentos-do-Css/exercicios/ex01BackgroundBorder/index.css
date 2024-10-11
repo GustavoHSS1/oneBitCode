@@ -1,0 +1,30 @@
+body {
+    background-image: url('img/imagem.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #248030;
+    color: #eaeaea;
+    border-radius: 8px;
+}
+
+main {
+    background-color: #FFFF8C;
+    border-radius: 5px;
+}
+
+section a {
+    color: #248030;
+}
+
+#contact button {
+    background-color: #248030;
+    border-radius: 5px;
+    border: 2px solid #248030;
+}
+
+footer {
+    background-color: #fff;
+    border-radius: 5px;
+}
