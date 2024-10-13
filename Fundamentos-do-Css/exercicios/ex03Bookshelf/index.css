@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Montserrat' , sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 30px;
+}
+
+#secao1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#secao1 p {
+    margin: 20px;
+} 
+
+.botao {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#secao2 {
+    text-align: center;
+}
+
+#secao2 h2 {
+    margin-top: 50px;
+}
+
+#botoes {
+    margin-top: 40px;
+}
+
+.btn {
+    margin-right: 20px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: #43ABF6;
+    color: #fff;
+}
+
+#prt {
+    background-color: #000;
+    color: #FFF;
+}
+
+#teste h2 {
+    margin: 25px;
+}
+
+#teste p {
+    margin: 20px;
+}
+
+#teste button {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #030308;
+    color: #FFF;
+    text-align: center;
+    padding: 30px;
+}
