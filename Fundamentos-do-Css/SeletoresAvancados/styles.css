@@ -24,3 +24,22 @@ li:hover {
     background-color: #0f0;
 }
 
+li::before {
+    content: "(antes) ";
+  }
+  
+  li::after {
+    content: " (depois)";
+  }
+
+  li:first-child {
+    color: rgb(255, 174, 0);
+}
+
+li:last-child {
+    color: rgb(255, 0, 179);
+}
+
+li:not(:first-child) {
+    color: rgb(0, 255, 255);
+}
