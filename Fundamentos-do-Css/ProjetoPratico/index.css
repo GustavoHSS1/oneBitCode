@@ -113,6 +113,14 @@ a {
     transform: rotate(-2deg); /* deg = degrees */
 }
 
+.gallery__img:hover {
+    border-radius: .75rem;
+    height: 16rem;
+    width: 16rem;
+    object-fit: cover;
+    transform: rotate(2deg);
+}
+
 .gallery__img-wrapper {
     display: inline-block;
     position: relative;
@@ -126,6 +134,10 @@ a {
 .gallery__img-wrapper:nth-child(even) > .gallery__img {
     top: 1rem;
     transform: rotate(2deg);
+}
+
+.gallery__img-wrapper:nth-child(even):hover {
+    transform: rotate(-2deg);
 }
 
 .gallery__img-wrapper::after {
