@@ -1,35 +1,18 @@
-const soma = document.getElementById("somar");
+const entrada1 = prompt("Informe o primeiro número:")
+const entrada2 = prompt("Informe o segundo número:")
 
-soma.addEventListener("click" , function() {
-    const num1 = document.getElementById("num1");
-    const num2 = document.getElementById("num2");
-    const resultado = document.getElementById("resultado");
+const x = parseFloat(entrada1)
+const y = parseFloat(entrada2)
 
-    const somar = parseInt(num1.value) + parseInt(num2.value);
+const soma = x + y
+const subtracao = x - y
+const multiplicacao = x * y
+const divisao = x / y
 
-    resultado.innerText = somar;
-});
-
-const subtrair = document.getElementById("subtrair");
-
-subtrair.addEventListener("click" , function() {
-    const subtrair = parseInt(num1.value) - parseInt(num2.value);
-
-    resultado.innerText = subtrair;
-})
-
-const multiplicar = document.getElementById("multiplicar");
-
-multiplicar.addEventListener("click" , function() {
-    const multiplicar = parseInt(num1.value) * parseInt(num2.value);
-
-    resultado.innerText = multiplicar;
-})
-
-const dividir = document.getElementById("dividir");
-
-dividir.addEventListener("click" , function() {
-    const dividir = parseInt(num1.value) / parseInt(num2.value);
-
-    resultado.innerText = dividir;
-})
+alert(
+    "Resultados: \n" +
+    "\nSoma: " + soma +
+    "\nSubtração: " + subtracao +
+    "\nMultiplicação: " + multiplicacao +
+    "\nDivisão: " + divisao
+)
