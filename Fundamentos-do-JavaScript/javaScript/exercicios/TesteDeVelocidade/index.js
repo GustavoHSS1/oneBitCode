@@ -1,8 +1,8 @@
 const nome1 = prompt("Digite o nome do primeiro carro")
-const velocidade1 = prompt("Digite a velocidade desse primeiro carro")
+const velocidade1 = parseFloat(prompt("Digite a velocidade desse primeiro carro"))
 
 const nome2 = prompt("Digite o nome do segundo carro")
-const velocidade2 = prompt("Digite a velocidade desse segundo carro")
+const velocidade2 = parseFloat(prompt("Digite a velocidade desse segundo carro"))
 
 if (velocidade1 < velocidade2) {
     alert("O " + nome1 + " é mais rápido que o carro " + nome2 + "!")
