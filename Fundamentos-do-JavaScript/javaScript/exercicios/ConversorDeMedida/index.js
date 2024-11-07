@@ -1,33 +1,33 @@
-const medida = prompt("Digite um valor em metros:")
+const valorMetro = prompt("Diga um valor em metros:")
+const medida = prompt("Agora diga pra qual unidade de medida ele deve ser convertido:" +
+     "\nn1.milímetro(mm)" +
+    "\nn2.centímetro (cm)" +
+    "\nn3.decímetro(dm)" +
+    "\nn4.decâmetro(dam)" +
+    "\nn5.hectômetro(hm)" +
+    "\nn6.quilômetro(km)")
 
-const unidade = prompt("Para qual unidade de medidade deseja converter" +
-    "\n1. milimetros (mm)" +
-    "\n2. centímetros (cm)" +
-    "\n3. decímetros (dm)" +
-    "\n4. decâmetros (dam)" +
-    "\n5. hectômetros (hm)" +
-    "\n6. quilômetros (km)"
-)
+const medidaNumerica = parseFloat(medida)
 
-switch (unidade) {
-    case "1": 
-        alert("Resultado " + medida + "m = " + medida * 1000 + "mm")
+switch (medidaNumerica) {
+    case 1:
+        alert("Resultado " + valorMetro + "m = " + valorMetro * 1000 + "mm")
         break
-    case "2":
-        alert("Resultado " + medida + "m = " + medida * 100 + "cm")
+    case 2:
+        alert("Resultado " + valorMetro + "m = " + valorMetro * 100 + "cm")
         break
-    case "3":
-        alert("Resultado " + medida + "m = " + medida * 10 + "dm")
+    case 3:
+        alert("Resultado " + valorMetro + "m = " + valorMetro * 10 + "dm")
         break
-    case "4":
-        alert("Resultado " + medida + "m = " + medida / 10 + "dam")
+    case 4:
+        alert("Resultado " + valorMetro + "m = " + valorMetro / 10 + "dam")
         break
-    case "5":
-        alert("Resultado " + medida + "m = " + medida / 100 + "hm")
+    case 5:
+        alert("Resultado " + valorMetro + "m = " + valorMetro / 100 + "hm")
         break
-    case "6": 
-    alert("Resultado " + medida + "m = " + medida / 1000 + "km")
-    break
+    case 6:
+        alert("Resultado " + valorMetro + "m = " + valorMetro / 1000 + "km")
+        break
     default:
-        alert("Opção inválida")
+    alert("Opção inválida")
 }
